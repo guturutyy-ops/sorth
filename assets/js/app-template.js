@@ -92,7 +92,7 @@
 
     app.innerHTML = `
       <header class="site-header">
-        <a class="wordmark" href="${escapeHTML(mainSiteUrl)}" aria-label="ХилСорт, основной сайт"><img class="brand-mascot" src="../mascot.png" alt="">ХилСорт</a>
+        <a class="wordmark" href="${escapeHTML(mainSiteUrl)}" aria-label="ХилСорт, основной сайт"><img class="brand-mascot" src="mascot.png" alt="">ХилСорт</a>
         <a class="header-note" href="${escapeHTML(businessCardUrl)}">Сайт-визитка <span aria-hidden="true">↗</span></a>
       </header>
       <main class="chooser" aria-labelledby="page-title">
@@ -121,7 +121,7 @@
 
     app.innerHTML = `
       <header class="site-header">
-        <a class="wordmark" href="${escapeHTML(mainSiteUrl)}" aria-label="ХилСорт, основной сайт"><img class="brand-mascot" src="../mascot.png" alt="">ХилСорт</a>
+        <a class="wordmark" href="${escapeHTML(mainSiteUrl)}" aria-label="ХилСорт, основной сайт"><img class="brand-mascot" src="mascot.png" alt="">ХилСорт</a>
         <a class="header-note" href="${escapeHTML(businessCardUrl)}">Сайт-визитка <span aria-hidden="true">↗</span></a>
       </header>
 
@@ -247,7 +247,7 @@
         <section class="info-section assistant-section" id="olion" aria-labelledby="olion-title">
           <div class="section-heading"><span>10</span><h2 id="olion-title">Спросить Олиона</h2></div>
           <div class="assistant-layout">
-            <div class="assistant-portrait"><img src="../mascot.png" alt="Олион, помощник ХилСорт" loading="lazy"><p>Олион</p><span>Помощник ХилСорт</span></div>
+            <div class="assistant-portrait"><img src="mascot.png" alt="Олион, помощник ХилСорт" loading="lazy"><p>Олион</p><span>Помощник ХилСорт</span></div>
             <div class="assistant-chat">
               <div class="chat-messages" id="olion-messages" role="log" aria-live="polite" aria-relevant="additions">
                 <article class="chat-message olion-message"><strong>Олион</strong><p>Привет! Выберите вопрос, и я отвечу здесь, по информации о вашем продукте.</p></article>
@@ -358,7 +358,7 @@
   function renderFooter() {
     return `
       <footer class="site-footer">
-        <a class="wordmark" href="../"><img class="brand-mascot" src="../mascot.png" alt="">ХилСорт</a>
+        <a class="wordmark" href="../"><img class="brand-mascot" src="mascot.png" alt="">ХилСорт</a>
         <p>Справочная информация о биологически активных добавках.</p>
         <p>БАД. Не является лекарственным средством.</p>
         <div class="footer-links"><a href="${escapeHTML(mainSiteUrl)}">Основной сайт ↗</a><a href="${escapeHTML(businessCardUrl)}">Сайт-визитка ↗</a><a href="https://t.me/healsort_bot" target="_blank" rel="noopener noreferrer">Telegram-бот ↗</a></div>
